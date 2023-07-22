@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Contact Us
+{% endblock title %}
+{% block style %}
+<style>
+  /* Custom CSS for Contact Page */
+  body {
+    background-color: #f2e5e5; /* Light beige background */
+    font-family: Arial, sans-serif;
+  }
+
+  .my-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .my-contact-main {
+    padding-top: 30px;
+  }
+
+  .my-contact-container {
+    padding: 20px;
+    border-radius: 6px;
+  }
+
+  .my-text-primary {
+    color: #990000; /* Deep red primary text color */
+  }
+
+  .my-text-primarry {
+    color: #f2e5e5; /* Light beige text color */
+  }
+
+  .my-text-light {
+    color: white; /* Light beige text color */
+  }
+
+  .my-text-dark {
+    color: #333; /* Dark text color for better contrast */
+  }
+
+  .my-bg-primary {
+    background-color: #990000; /* Deep red primary background */
+    color: #fff; /* White text color for better contrast on primary background */
+  }
+
+  .my-form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .my-btn-primary {
+    background-color: #990000; 
+    color: #fff; 
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .my-btn-primary:hover {
+    background-color: #800000; /* Slightly darker on hover */
+  }
+
+  .my-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Make both columns stretch to the same height */
+  }
+
+  .my-col {
+    flex: 0 0 50%; /* Make both columns occupy 50% of the width */
+    padding: 10px;
+  }
+
+  .my-design {
+    padding-top:90px;
+  }
+</style>
+{% endblock style %}
+
+{% block body %}
+  <main class="my-container my-contact-main">
+    <div class="my-row">
+      <div class="my-col my-design">
+        <div class="my-contact-container my-bg-primary">
+          <h1 class="my-text-primarry mb-4">Get in Touch</h1>
+          <p class="my-text-light">Have any questions or feedback? We'd love to hear from you!</p>
+
+          <h3 class="my-text-primarry mt-5">Location</h3>
+          <p class="my-text-light"><i class="fas fa-map-marker-alt"></i> 19/23 Main Street, Paris, France</p>
+
+          <h3 class="my-text-primarry mt-5">Contact Information</h3>
+          <p class="my-text-light"><i class="fas fa-phone"></i> +1 823-456-7890</p>
+          <p class="my-text-light"><i class="fas fa-envelope"></i> dejabrew@gmail.com</p>
+        </div>
+      </div>
+      <div class="my-col">
+        <div class="my-contact-container">
+          <h3 class="my-text-primary mb-4">Your Café Feedback Matters</h3>
+          <form class="my-contact-form" method="post" action="/contact">
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="name" class="my-text-primary">Your Name</label>
+              <input type="text" class="my-form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="my-text-primary">Email Address</label>
+              <input type="email" class="my-form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="my-text-primary" name="message">Your Message</label>
+              <textarea class="my-form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="my-btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock body %}
+
+

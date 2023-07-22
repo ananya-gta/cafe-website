@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Cakes Menu
+{% endblock title %}
+
+{% block style %}
+<style>
+  .menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-item p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .menu-item .price {
+    font-weight: bold;
+    color: #a20000;
+  }
+  
+  .order-btn {
+    background-color: #a20000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-btn:hover {
+    background-color: #bb0000;
+  }
+
+  .my-style {
+    padding-bottom: 10px;
+    color: #a20000 ;
+    font-family: "Abhaya Libre", serif; 
+    font-weight: bold;
+    font-size: 60px
+  }
+
+</style>
+{% endblock style %}
+
+{% block body %}
+<div class="container my-3">
+  <h2 class="text-center my-style">Cakes Menu</h2>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Cake 1">
+        <h3>Classic Chocolate Cake</h3>
+        <p class="price">$9.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Cake 2">
+        <h3>Red Velvet Cake</h3>
+        <p class="price">$12.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1626263468007-a9e0cf83f1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80&h=300" alt="Cake 3">
+        <h3>Oreo Cake</h3>
+        <p class="price">$11.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Cake 4">
+        <h3>Black Forest Cake</h3>
+        <p class="price">$10.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1622621746668-59fb299bc4d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Cake 5">
+        <h3>Strawberry Cake</h3>
+        <p class="price">$9.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Cake 6">
+        <h3>Fruit Cake</h3>
+        <p class="price">$12.99</p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

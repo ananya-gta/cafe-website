@@ -1,0 +1,190 @@
+{% extends 'base.html' %}
+{% block title %}
+Home Page
+{% endblock title %}
+{% block style %}
+<style>
+  .stars {
+    color: #a20000; 
+    font-size: 1.7rem; 
+  }
+
+  .star {
+    display: inline-block;
+  }
+
+  .my-style {
+    padding-top: 10px;
+    color: #a20000; 
+    font-family: "Abhaya Libre", serif; 
+    font-weight: bold;
+    font-size: 60px
+  }
+</style>
+{% endblock style %}
+
+{% block body %}
+<div class="container-fluid px-0" >
+  <img src="/static/img/cafe.png" class="d-block w-100" alt="...">
+</div>
+
+<div class = "container my-3">
+  <h1 class="my-3 text-center my-style">Our Popular Menu</h1>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      <img src="/static/img/0.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$12.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      <img src="/static/img/2.jpg" class="bd-placeholder-img card-img-top" height="225" alt="chocolate brownie">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$8.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/3.jpg" class="bd-placeholder-img card-img-top" height="225" alt="alphonso">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$10.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/9.jpg" class="bd-placeholder-img card-img-top" alt="alphonso">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$9.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/5.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$14.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/6.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$13.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/7.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$15.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/8.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$15.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+      {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+      <img src="/static/img/9.jpg" class="bd-placeholder-img card-img-top" alt="rajbhog">
+      <div class="card-body">
+        <p class="card-text">Discover the perfect blend of flavors, textures, and aromas that will tantalize your taste buds and take you on a gastronomic journey like no other.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="stars">
+            {% for j in "12345" %}
+              <span class="star">&#9733;</span>
+            {% endfor %}
+          </div>
+          <small class="text-muted" style="font-size:17px">$13.99</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% endblock body %}

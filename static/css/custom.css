@@ -1,0 +1,29 @@
+/* Custom styled alert box */
+.alert-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 40px 10px 20px; /* Increased padding to accommodate the close button */
+    background-color: #ffcccc;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 9999;
+  }
+  
+  /* Close button (x symbol) */
+  .alert-close-button {
+    position: absolute; /* Change to absolute positioning */
+    top: 5px; /* Adjust the top positioning */
+    right: 10px; /* Adjust the right positioning */
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1;
+  }
+  
+  /* Style the x symbol */
+  .alert-close-button:hover {
+    color: #990000; /* Change color on hover */
+  }
+  
