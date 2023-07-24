@@ -104,7 +104,7 @@ This project is licensed under the [MIT License](LICENSE).
 ![Search Pop-up](/static/screenshots/search.jpeg)
 
 
-#### > Customers can find our cafe's location and contact information on this page. Additionally, they can use the feedback form to reach out to us with their inquiries.
+#### > Customers can find the cafe's location and contact information on this page. Additionally, they can use the feedback form to reach out with their inquiries.
 
 ![Contact Page](/static/screenshots/contact.jpeg)
 
