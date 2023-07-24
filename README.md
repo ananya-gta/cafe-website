@@ -88,11 +88,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ![Home Page](/static/screenshots/home.jpeg)
 
+
 #### > The navigation bar features a dropdown menu with three enticing options: "Cakes," "Beverages," and "Food Items." Each option leads to its respective landing page. Refer to the screenshots below.
 
 ![Menu Page](/static/screenshots/cakes-menu.jpeg)
 ![Menu Page](/static/screenshots/food-menu.jpeg)
 ![Menu Page](/static/screenshots/beverages-menu.jpeg)
+
 
 #### > Clicking 'About' in the navigation bar takes you to About page
 
