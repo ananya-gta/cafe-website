@@ -1,6 +1,6 @@
 # Minimal Front-End of Cafeteria Website
 
-This web application is built using Django, Python, HTML, CSS, and JavaScript. The project aims to provide an online presence for our cafe, allowing customers to browse our menu, get in touch with us, and provide feedback. Customers can explore various food and beverage options and search for their favorite cuisines using the search box.
+This web application is built using Django, Python, HTML, CSS, and JavaScript. The project aims to provide an online presence for the cafe, allowing customers to browse the menu, get in touch with us, and provide feedback. Customers can explore various food and beverage options and search for their favorite cuisines using the search box.
 
 ## Features
 
@@ -84,7 +84,7 @@ I welcome contributions to enhance the cafeteria website. To contribute, follow 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
-#### > This is the landing page of the cafeteria website. Customers are greeted with a welcoming interface displaying our cafe's logo and a popular menu of the cafe.
+#### > This is the landing page of the cafeteria website. Customers are greeted with a welcoming interface displaying the cafe's logo and a popular menu of the cafe.
 
 ![Home Page](/static/screenshots/home.jpeg)
 
@@ -96,12 +96,12 @@ This project is licensed under the [MIT License](LICENSE).
 ![Menu Page](/static/screenshots/beverages-menu.jpeg)
 
 
-#### > Clicking 'About' in the navigation bar takes you to About page
+#### > Clicking 'About Us' in the navigation bar takes you to About Us page
 
 ![About Page](/static/screenshots/about.jpeg)
 
 
-#### > The website features a convenient Search Pop-Up that allows customers to search for their favorite cuisines or dishes easily. When users search for an item that is not available on our menu, a helpful pop-up message will appear, stating "Oops! The item is not available." This feature ensures a smooth user experience and informs customers when their desired item is not currently offered.
+#### > The website features a convenient Search Pop-Up that allows customers to search for their favorite cuisines or dishes easily. When users search for an item that is not available on the menu, a helpful pop-up message will appear, stating "Oops! The item is not available." This feature ensures a smooth user experience and informs customers when their desired item is not currently offered.
 
 ![Search Pop-up](/static/screenshots/search.jpeg)
 
