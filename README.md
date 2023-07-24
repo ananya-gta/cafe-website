@@ -77,7 +77,7 @@ I welcome contributions to enhance the cafeteria website. To contribute, follow 
 
 6. Push your changes to your forked repository.
 
-7. Open a pull request, and we will review your contribution.
+7. Open a pull request, and I will review your contribution.
 
 ## License
 
