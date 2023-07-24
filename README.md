@@ -98,7 +98,7 @@ I welcome contributions to enhance the cafeteria website. To contribute, follow 
 ![About Page](/static/screenshots/about.jpeg)
 
 
-#### > The website features a convenient Search Pop-Up that allows customers to search for their favorite cuisines or dishes easily. When users search for an item that is not available on the menu, a helpful pop-up message will appear, stating "Oops! The item is not available." This feature ensures a smooth user experience and informs customers when their desired item is not currently offered.
+#### > The website features a convenient Search Pop-Up that allows customers to search for their favorite cuisines or dishes easily. When users search for an item that is not available on the menu, a helpful pop-up message will appear, stating "Oops! The item you searched for is not available." This feature ensures a smooth user experience and informs customers when their desired item is not currently offered.
 
 ![Search Pop-up](/static/screenshots/search.jpeg)
 
