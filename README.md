@@ -63,7 +63,7 @@ python manage.py runserver
 
 ## Contributing
 
-We welcome contributions to enhance the cafeteria website. To contribute, follow these steps:
+I welcome contributions to enhance the cafeteria website. To contribute, follow these steps:
 
 1. Fork the repository on GitHub.
 
@@ -84,17 +84,31 @@ We welcome contributions to enhance the cafeteria website. To contribute, follow
 This project is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
+#### > This is the landing page of the cafeteria website. Customers are greeted with a welcoming interface displaying our cafe's logo and a popular menu of the cafe.
 
-![Home Page](/path/to/home-screenshot.png)
-> This is the landing page of our cafeteria website. Customers are greeted with a welcoming interface displaying our cafe's logo and a brief description.
+![Home Page](/static/screenshots/home.jpeg)
 
-![Menu Page](/path/to/menu-screenshot.png)
-> The menu page showcases a variety of delicious food and beverage options available at our cafe, along with descriptions and prices.
+#### > The navigation bar features a dropdown menu with three enticing options: "Cakes," "Beverages," and "Food Items." Each option leads to its respective landing page. Refer to the screenshots below.
 
-![Contact Page](/path/to/contact-screenshot.png)
-> Customers can find our cafe's location and contact information on this page. Additionally, they can use the feedback form to reach out to us with their inquiries.
+![Menu Page](/static/screenshots/cakes-menu.jpeg)
+![Menu Page](/static/screenshots/food-menu.jpeg)
+![Menu Page](/static/screenshots/beverages-menu.jpeg)
 
----
+#### > Clicking 'About' in the navigation bar takes you to About page
+
+![About Page](/static/screenshots/about.jpeg)
+
+
+#### > The website features a convenient Search Pop-Up that allows customers to search for their favorite cuisines or dishes easily. When users search for an item that is not available on our menu, a helpful pop-up message will appear, stating "Oops! The item is not available." This feature ensures a smooth user experience and informs customers when their desired item is not currently offered.
+
+![Search Pop-up](/static/screenshots/search.jpeg)
+
+
+#### > Customers can find our cafe's location and contact information on this page. Additionally, they can use the feedback form to reach out to us with their inquiries.
+
+![Contact Page](/static/screenshots/contact.jpeg)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
