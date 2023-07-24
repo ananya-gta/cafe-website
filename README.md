@@ -79,9 +79,6 @@ I welcome contributions to enhance the cafeteria website. To contribute, follow 
 
 7. Open a pull request, and I will review your contribution.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
 #### > This is the landing page of the cafeteria website. Customers are greeted with a welcoming interface displaying the cafe's logo and a popular menu of the cafe.
