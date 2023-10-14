@@ -16,7 +16,7 @@ This web application is built using Django, Python, HTML, CSS, and JavaScript. T
 
 To run this Django project locally on your machine, follow these steps:
 
-1. Clone the repository to your local system using the following command:
+1. Clone the repository to your local system using the following command :
 ```
 git clone https://github.com/ananya-gta/cafeteria-website.git
 ```
