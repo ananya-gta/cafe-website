@@ -1,6 +1,6 @@
 # Minimal Front-End of Cafeteria Website
 
-This web application is built using Django, Python, HTML, CSS, and JavaScript. The project aims to provide an online presence for the cafe, allowing customers to browse the menu, get in touch with us, and provide feedback. Customers can explore various food and beverage options and search for their favorite cuisines using the search box.
+This front-end design is built using Django, Python, HTML, CSS, and JavaScript. The project aims to provide an online presence for the cafe, allowing customers to browse the menu, get in touch with us, and provide feedback. Customers can explore various food and beverage options and search for their favorite cuisines using the search box.
 
 ## Features
 
